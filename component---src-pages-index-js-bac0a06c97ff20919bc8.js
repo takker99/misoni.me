@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(t,e,a){"use strict";a.r(e),a.d(e,"pageQuery",(function(){return l}));var n=a("q1tI"),r=a.n(n),i=a("Bl7J"),c=a("vrFN");e.default=function(t){var e=t.data,a=t.location,n=e.site.siteMetadata.title;return r.a.createElement(i.a,{location:a,title:n},r.a.createElement(c.a,{title:"トップページ"}),r.a.createElement("p",null,"空洞です"))};var l="3159585216"}}]);
+//# sourceMappingURL=component---src-pages-index-js-bac0a06c97ff20919bc8.js.map
