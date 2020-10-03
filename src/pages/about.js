@@ -33,13 +33,16 @@ const AboutPage = ({ data, location }) => {
           <a href="https://scrapbox.io/MISONLN41/" target="blank" rel="nofollow noopener noreferrer external">Scrapbox (/MISONLN41)</a>
           </li>
           <li>
-          <a href="https://twitter.com/MISONLN41/" target="blank" rel="nofollow noopener noreferrer external">Twitter (@MISONLN41)</a>
+          <a href="https://mstdn.misoni.me/@misonln41" target="blank" rel="nofollow noopener noreferrer external">Mastodon (@misonln41@mstdn.misoni.me)</a>
           </li>
           <li>
           <a href="https://github.com/MISONLN41/" target="blank" rel="nofollow noopener noreferrer external">GitHub (@MISONLN41)</a>
           </li>
           <li>
           <a href="https://discord.com" target="blank" rel="nofollow noopener noreferrer external">Discord (Misoni#8554)</a>
+          </li>
+          <li>
+          <a href="https://twitter.com/MISONLN41/" target="blank" rel="nofollow noopener noreferrer external">Twitter (@MISONLN41)</a>
           </li>
         </ul>
       </section>
