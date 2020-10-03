@@ -1,0 +1,32 @@
+.wrapper {
+    background: rgb(19, 70, 105);
+    background: linear-gradient(90deg, rgba(41, 169, 255, 1) 0%, rgba(9, 124, 201, 1) 68%, rgba(19, 70, 105, 1) 100%);
+}
+
+.header {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Noto Sans CJK JP', 'Source Han Sans JP', 'Helvetica', 'BIZ UDGothic', 'Meiryo', sans-serif;
+    color: #F5F5F5;
+    font-size: 1.6em;
+    line-height: 2.0em;
+    margin-right: 50px;
+}
+
+.title a {
+    display: block;
+}
+
+.linktotop, .linktotop:hover {
+    color: inherit;
+    text-decoration: none;
+}

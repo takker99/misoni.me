@@ -1,0 +1,17 @@
+.navigation ul {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    column-gap: 20px;
+    margin-bottom: 6px;
+}
+
+.navigation ul li {
+    display: block;
+    margin: 0;
+}
+
+.navigation ul li a:hover {
+    color: inherit;
+}
