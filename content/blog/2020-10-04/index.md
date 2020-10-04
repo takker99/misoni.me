@@ -1,5 +1,5 @@
 ---
-title: "Mastodonを ConoHa VPS の Arch Linux にインストールする"
+title: "Mastodon を ConoHa VPS の Arch Linux にインストールする"
 date: "2020-10-04"
 description: ""
 tags: ["Mastodon", "VPS", "GNU/Linux"]
@@ -97,8 +97,6 @@ sudo su - postgres -s /bin/sh -c "createuser -d mastodon"
 AUR にも Mastodon が置いてあるのだが、バージョンが 3.1.4 と少し古かったので普通に GitHub から clone した。
 
 `git` を利用して Mastodon をダウンロードし、安定版リリースを checkout する。
-
-間違い等あったら Twitter か Discord、もしくは Mastodon で教えていただけると助かる。では。
 
 ```bash
 git clone https://github.com/tootsuite/mastodon.git live && cd live
@@ -217,6 +215,8 @@ sudo chmod +x /home/mastodon/live/public/
 sudo chmod +x /home/mastodon/
 sudo reboot
 ```
+
+間違い等あったら Twitter か Discord、もしくは Mastodon で教えていただけると助かる。では。
 
 ## 参考
 
