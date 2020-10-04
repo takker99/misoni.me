@@ -48,9 +48,9 @@
     </span></p>
 <p>ムームー DNS 側でサブドメインを切り、VPS の IP アドレスを指定する。AAAA レコードには IPv6 アドレスを、A レコードには IPv4 アドレスを入れる。まあ、ここの情報は山のようにあるので各自で頑張ってくれ。</p>
 <h2>VPS自体の初期設定</h2>
-<p>SSH 接続して作業用ユーザーを作成して root ログインを無効化して公開鍵認証にしてパスワードログインを無効化した。こちらも情報は山のようにあるので各自で頑張ってくれ。</p>
+<p>SSH 接続して作業用ユーザーを作成して sudo の設定をして root ログインを無効化して公開鍵認証にしてパスワードログインを無効化した。こちらも情報は山のようにあるので各自で頑張ってくれ。</p>
 <h2>必要なパッケージの入手</h2>
-<p>Mastodon を動かすのに必要なパッケージをインストールする</p>
+<p>Mastodon を動かすのに必要なパッケージをインストールする。</p>
 <div class="gatsby-highlight" data-language="bash"><pre style="counter-reset: linenumber NaN" class="language-bash line-numbers"><code class="language-bash"><span class="token function">sudo</span> pacman -Syu
 <span class="token function">sudo</span> pacman -S base-devel ffmpeg imagemagick libidn libpqxx libxml2 libxslt libyaml nodejs postgresql protobuf redis <span class="token function">yarn</span> zlib <span class="token function">git</span> nginx certbot-nginx</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span></span></pre></div>
 <p>Ruby はバージョンを指定してインストールする必要があるため、rbenv というツールを利用する。これは pyenv の Ruby 版みたいなものだ。<code class="language-text">.bashrc</code> の設定なども必要になるため、この時点で <code class="language-text">mastodon</code> というユーザーを作成する。</p>
