@@ -6,7 +6,7 @@ module.exports = {
       summary: `色々なことに中途半端に手を出す性格。趣味は読書や音楽・アニメ鑑賞など。このサイトには基本的に怪文書、たまに技術的なことを書く予定。`,
     },
     description: `俺は空洞　でかい空洞`,
-    siteUrl: `https://misoni.me`,
+    siteUrl: `https://misoni.me/`,
     social: {
       twitter: `MISONLN41`,
     },
@@ -67,5 +67,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
   ],
 }
