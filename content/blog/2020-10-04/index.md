@@ -155,12 +155,12 @@ sudo sed sites-available/mastodon -e 's/example\.com/mstdn\.misoni\.me/g'
 
 また、SSL を有効化するために `ssl_certificate` と `ssl_certificate_key` の行をアンコメントする。
 
-`nginx.conf` の `http {...}` ブロックの末尾に `include /etc/nginx/sites-enabled/*;` を追記し、`site-enabled/` 下のファイルを読むようにする。
+`nginx.conf` の `http {...}` ブロックの末尾に `include /etc/nginx/sites-enabled/*;` を追記し、`sites-enabled/` 下のファイルを読むようにする。
 
 設定が終わったら nginx サービスを立ち上げる。
 
 ```bash
-sudo systemctl enable --now mastodon
+sudo systemctl enable --now nginx
 ```
 
 ## systemd サービスの設定
