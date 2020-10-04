@@ -1,0 +1,24 @@
+code[class*="language-"],
+pre[class*="language-"] {
+	white-space: pre-wrap;
+}
+
+.gatsby-highlight {
+  background: #272822;
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em; /* 3 */
+} 

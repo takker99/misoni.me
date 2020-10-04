@@ -1,3 +1,6 @@
 import "prismjs/themes/prism.css"
+import "prismjs/themes/prism-okaidia.css"
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"
+import "./src/styles/prismjs.css"
 import "ress"
 import "./src/styles/global.css"
