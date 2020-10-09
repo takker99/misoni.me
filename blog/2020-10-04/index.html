@@ -79,6 +79,8 @@ rbenv global <span class="token number">2.6</span>.6</code><span aria-hidden="tr
 <div class="gatsby-highlight" data-language="bash"><pre style="counter-reset: linenumber NaN" class="language-bash line-numbers"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">su</span> - postgres -s /bin/sh -c <span class="token string">"createuser -d mastodon"</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
 <p>以上で PostgreSQL と Redis の設定は終わり。</p>
 <h2>Mastodon のセットアップ</h2>
+<p>再び<code class="language-text">mastodon</code>ユーザーでログインする。</p>
+<div class="gatsby-highlight" data-language="bash"><pre style="counter-reset: linenumber NaN" class="language-bash line-numbers"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">su</span> - mastodon</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
 <p>AUR にも Mastodon が置いてあるのだが、バージョンが 3.1.4 と少し古かったので普通に GitHub から clone した。</p>
 <p><code class="language-text">git</code> を利用して Mastodon をダウンロードし、安定版リリースを checkout する。</p>
 <div class="gatsby-highlight" data-language="bash"><pre style="counter-reset: linenumber NaN" class="language-bash line-numbers"><code class="language-bash"><span class="token function">git</span> clone https://github.com/tootsuite/mastodon.git live <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> live
@@ -93,6 +95,7 @@ bundle <span class="token function">install</span> -j<span class="token variable
 <p>これはウィザードに従っていれば簡単に完了する。ドメインや、クラウドストレージ ( S3とか ) 利用の可否、メールサーバーの設定等が対話形式で進んでいく。今回は自分専用のインスタンスなので、メールサーバーの設定は全て空欄で押し通した。</p>
 <p>最後に admin アカウントの設定ができるが、その際に非常に長いパスワードが生成される。忘れると再びセットアップをやり直さなければいけないと思われるので、何かしらの方法で控えておくことを推奨する。</p>
 <p>以上で Mastodon 本体のセットアップは完了である。ユーザー <code class="language-text">mastodon</code> から離脱する。</p>
+<div class="gatsby-highlight" data-language="bash"><pre style="counter-reset: linenumber NaN" class="language-bash line-numbers"><code class="language-bash"><span class="token builtin class-name">exit</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
 <h2>nginx の設定</h2>
 <p>最後に nginx の設定をする。</p>
 <p>まず、<code class="language-text">certbot</code> を利用して SSL 証明書を発行する。</p>
