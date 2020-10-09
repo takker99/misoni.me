@@ -94,6 +94,12 @@ sudo su - postgres -s /bin/sh -c "createuser -d mastodon"
 
 ## Mastodon のセットアップ
 
+再び`mastodon`ユーザーでログインする。
+
+```bash
+sudo su - mastodon
+```
+
 AUR にも Mastodon が置いてあるのだが、バージョンが 3.1.4 と少し古かったので普通に GitHub から clone した。
 
 `git` を利用して Mastodon をダウンロードし、安定版リリースを checkout する。
@@ -123,6 +129,10 @@ RAILS_ENV=production bundle exec rake mastodon:setup
 最後に admin アカウントの設定ができるが、その際に非常に長いパスワードが生成される。忘れると再びセットアップをやり直さなければいけないと思われるので、何かしらの方法で控えておくことを推奨する。
 
 以上で Mastodon 本体のセットアップは完了である。ユーザー `mastodon` から離脱する。
+
+```bash
+exit
+```
 
 ## nginx の設定
 
