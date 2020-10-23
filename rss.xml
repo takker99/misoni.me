@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[僕は一寸]]></title><description><![CDATA[俺は空洞　でかい空洞]]></description><link>https://misoni.me</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 17 Oct 2020 16:12:47 GMT</lastBuildDate><item><title><![CDATA[日記を書く]]></title><description><![CDATA[誕生日 昨日 (2020-10-1…]]></description><link>https://misoni.me/blog/2020-10-18/</link><guid isPermaLink="false">https://misoni.me/blog/2020-10-18/</guid><pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;誕生日&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%AA%95%E7%94%9F%E6%97%A5&quot; aria-label=&quot;誕生日 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;誕生日&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[僕は一寸]]></title><description><![CDATA[俺は空洞　でかい空洞]]></description><link>https://misoni.me</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Oct 2020 14:47:31 GMT</lastBuildDate><item><title><![CDATA[Linux 版 Edge の開発版が公開されていたので試してみた]]></title><description><![CDATA[Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から Microsoft Edge Insider では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu…]]></description><link>https://misoni.me/blog/2020-10-23/</link><guid isPermaLink="false">https://misoni.me/blog/2020-10-23/</guid><pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から &lt;a href=&quot;https://www.microsoftedgeinsider.com/ja-jp/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;Microsoft Edge Insider&lt;/a&gt; では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu 上で動く Edge がチラ見せされたりしていたので結構楽しみにしていた。とは言え、前々から10月に出すという話は聞いていたので特に驚きなどはなく、予定通りに来ましたねという感じ。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; margin-top: 20px; margin-bottom: 20px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/68fdde26a96376128df6eaae00f6bd24/bb27a/edgeinsider.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACCElEQVQoz3VSS2/TQBDef4fEqVcOqP+BCzdUONK8RQXBoaFVn0ggyAEh0aohRkpIK8WJA3ES40dsHg7B3nXsZP1mWgNCQD9Zo53RN9+3M2tULleYR9UHDyuZXCGTK65n84XSRlq5X2YgMpXNYmkjly+uZ/LZfDGbLwENDoXSPUSXOI6TIPBtm2Bsuq4TBEEYBMlfiOPQo2EYUko9SqMQKD7CxLQv4DjO4g9ACjyIvu9DTxRFcZJAhDS4kLYsC3W7vUaj0Ww2WZZtt9v1er1Wqw2Hw8FgoOt6q9VyXfefS4BOgjFGIJM6cBwnimK/3x+Px/P5HEw8zwMXYBLbmZnku2VD/GYSKEMzcBAhRJZlRVGgR1VV8JQkSRAERVEnquq4C8+PXg/1Yx0fqTP2k3UsGeKXGTQvKT13Bo10QriJYRjp/ABsYbB2l/6ppGvLoP7V7s/wu49aZzSJwgj46OcYSQyz0cXCdeZL14F9pnXq+VyPv/P41e3d+q2tkzXmRfbJyY21u9t7BzAX8sN49fDzypZ+bWeyUlVX99UrjHx9X7+6qd18OU3iyJhOO7zAtrtvz/g3rQ7/Xujx/GgkwtpRGCfP++SAI4ddsn1mPeXt6qn1jLf3OuRo7CSXA9aJwP33E/z6UkA9BHnvf4A6/AtI0zTYqyQrsqKeb1jTPgwGkJoWxoTYlwOe6Qf5jXojfcKDCgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;edgeinsider&quot;
+        title=&quot;edgeinsider&quot;
+        src=&quot;/static/68fdde26a96376128df6eaae00f6bd24/b06ae/edgeinsider.png&quot;
+        srcset=&quot;/static/68fdde26a96376128df6eaae00f6bd24/0d3e1/edgeinsider.png 140w,
+/static/68fdde26a96376128df6eaae00f6bd24/908b1/edgeinsider.png 280w,
+/static/68fdde26a96376128df6eaae00f6bd24/b06ae/edgeinsider.png 560w,
+/static/68fdde26a96376128df6eaae00f6bd24/1e088/edgeinsider.png 840w,
+/static/68fdde26a96376128df6eaae00f6bd24/f43e4/edgeinsider.png 1120w,
+/static/68fdde26a96376128df6eaae00f6bd24/bb27a/edgeinsider.png 1371w&quot;
+        sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;auto&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;公式にサポートされているのは Debian 系と Fedora 系 (と表記してしまっていいのだろうか? Fedora と openSUSE の関係を知らないのだが) のみなので、Arch Linux ベースの Manjaro にはそのままではインストールできない。とはいえ Debian 系向けのバイナリをちょっと細工するとほぼそのまま使えてしまう場合も多く、またそれを自動化するパッケージ (ソースからビルドするのでなく、バイナリをダウンロードして細工するタイプ) が AUR に転がっていることも多い。Edge も案の定、&lt;a href=&quot;https://aur.archlinux.org/packages/microsoft-edge-dev-bin/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;AUR にパッケージが置いてあった&lt;/a&gt;ので、ありがたく使わせてもらう。Arch は偉大なり。&lt;/p&gt;
+&lt;p&gt;実際に試してみた感想としては、「Edge だなあ。」という感じで、それ以上でもそれ以下でもない。ポップアップの影の描写が変だったりするけれど、そういう細かいバグに関しては Dev 版なので当たり前だ。プラットフォーム固有の機能が (しかも Windows じゃない OS に向けて) あるはずもなく、やっぱり「Edgeだなあ。」と。AUR からインストールしたからなのかバグなのか知らないけど、Microsoft Editor の拡張機能が動かなかったことだけが残念。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; margin-top: 20px; margin-bottom: 20px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/3096d/mseditor_broken.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.71428571428572%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA0UlEQVQY02WP207DMAyG+/7PxAuwiw20Ua2bGqpCm61q0jUH59gE5wIB4pNl/ZL1yXblvefCamOFUkJrAaCN0dYqAHBOO7dKidk4BwbbDyhWI4en02Mdh6Fth6bp9/upbVnXMUoFpfP1+nE+U0KWcVwYs9+gHGOsMKScRUd49z7Xb7fd8/T6Mp2ON0Kmy4UeDve6jpxvnOcY8y+KHELA1C+2Z5rM6nOF5i5naYSU+AV4L41JKeV/FBlPzykJE5TbpI02lO7DVubopMIWY6m/4NYvz4McpFRckHcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;mseditor broken&quot;
+        title=&quot;mseditor broken&quot;
+        src=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/b06ae/mseditor_broken.png&quot;
+        srcset=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/0d3e1/mseditor_broken.png 140w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/908b1/mseditor_broken.png 280w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/b06ae/mseditor_broken.png 560w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/1e088/mseditor_broken.png 840w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/f43e4/mseditor_broken.png 1120w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/3096d/mseditor_broken.png 1319w&quot;
+        sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;auto&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;とは言え Edge はコレクションやトラッキングブロック、縦タブのような独自機能でシンプル志向の Google Chrome と差別化を図っていて、しかも天下の Microsoft なので安定性も結構高い、かなりいい線を行ってるブラウザだと思っている。個人的に Microsoft の Fluent Design も好きだし、Edge が Linux で使えるようになったのは結構嬉しいといったところ。むしろ Edge が他の弱小 Chromium 系ブラウザや Firefox を食ってしまうんじゃないかと心配になるぐらいだ。それもまた仕方のないことなのかもしれないけれど。&lt;/p&gt;
+&lt;p&gt;とりあえず Arch にも公式で出してくれないかな〜&lt;/p&gt;</content:encoded></item><item><title><![CDATA[日記を書く]]></title><description><![CDATA[誕生日 昨日 (2020-10-1…]]></description><link>https://misoni.me/blog/2020-10-18/</link><guid isPermaLink="false">https://misoni.me/blog/2020-10-18/</guid><pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;誕生日&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%AA%95%E7%94%9F%E6%97%A5&quot; aria-label=&quot;誕生日 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;誕生日&lt;/h2&gt;
 &lt;p&gt;昨日 (2020-10-17) は誕生日だった。リアル・ネット問わず何人かからお祝いの言葉を頂けたことがとても嬉しい。年を取ったこと自体は嬉しいようで嬉しくないようで、微妙なかんじ。&lt;/p&gt;
 &lt;p&gt;誕生日だからといって何か特別なことはしていない。というか、できない。というのも、ここ数日体調を崩して寝込んでいて (その割に Twitter に浮上していたが) 、昨日もまだ咳が出たり「おなかの腹痛が痛かった」りしたので、とても何かする気にはならなかった (その割に Twitter に浮上していたが) 。ここでぶり返したらそっちのほうが面倒なので、布団の中で Twitter を見たり、&lt;a href=&quot;https://www.youtube.com/watch?v=jBh3msWv1_A&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;Tin Pan Alley のアルバム&lt;/a&gt;とか &lt;a href=&quot;https://www.youtube.com/watch?v=eI_qMyW31_Q&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;Hosono House&lt;/a&gt; を聴いたりしているうちに一日が終わった。まあ、元気だったとしても特別なことはあまりしないのだが。&lt;/p&gt;
 &lt;h2 id=&quot;エール&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A8%E3%83%BC%E3%83%AB&quot; aria-label=&quot;エール permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;エール&lt;/h2&gt;
