@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[僕は一寸]]></title><description><![CDATA[俺は空洞　でかい空洞]]></description><link>https://misoni.me</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Oct 2020 14:47:31 GMT</lastBuildDate><item><title><![CDATA[Linux 版 Edge の開発版が公開されていたので試してみた]]></title><description><![CDATA[Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から Microsoft Edge Insider では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu…]]></description><link>https://misoni.me/blog/2020-10-23/</link><guid isPermaLink="false">https://misoni.me/blog/2020-10-23/</guid><pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から &lt;a href=&quot;https://www.microsoftedgeinsider.com/ja-jp/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;Microsoft Edge Insider&lt;/a&gt; では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu 上で動く Edge がチラ見せされたりしていたので結構楽しみにしていた。とは言え、前々から10月に出すという話は聞いていたので特に驚きなどはなく、予定通りに来ましたねという感じ。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[僕は一寸]]></title><description><![CDATA[俺は空洞　でかい空洞]]></description><link>https://misoni.me</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Nov 2020 16:08:02 GMT</lastBuildDate><item><title><![CDATA[Linux 版 Edge の開発版が公開されていたので試してみた]]></title><description><![CDATA[Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から Microsoft Edge Insider では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu…]]></description><link>https://misoni.me/blog/2020-10-23/</link><guid isPermaLink="false">https://misoni.me/blog/2020-10-23/</guid><pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linux 版 Microsoft Edge の Dev Channel が公開されたので軽く試してみた。ずっと前から &lt;a href=&quot;https://www.microsoftedgeinsider.com/ja-jp/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer external&quot;&gt;Microsoft Edge Insider&lt;/a&gt; では Linux 版が “Comming Soon” となっていたし、Build 2020 では Ubuntu 上で動く Edge がチラ見せされたりしていたので結構楽しみにしていた。とは言え、前々から10月に出すという話は聞いていたので特に驚きなどはなく、予定通りに来ましたねという感じ。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; margin-top: 20px; margin-bottom: 20px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/68fdde26a96376128df6eaae00f6bd24/bb27a/edgeinsider.png&quot;
+    href=&quot;/static/68fdde26a96376128df6eaae00f6bd24/93f4b/edgeinsider.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -18,13 +18,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;edgeinsider&quot;
         title=&quot;edgeinsider&quot;
-        src=&quot;/static/68fdde26a96376128df6eaae00f6bd24/b06ae/edgeinsider.png&quot;
-        srcset=&quot;/static/68fdde26a96376128df6eaae00f6bd24/0d3e1/edgeinsider.png 140w,
-/static/68fdde26a96376128df6eaae00f6bd24/908b1/edgeinsider.png 280w,
-/static/68fdde26a96376128df6eaae00f6bd24/b06ae/edgeinsider.png 560w,
-/static/68fdde26a96376128df6eaae00f6bd24/1e088/edgeinsider.png 840w,
-/static/68fdde26a96376128df6eaae00f6bd24/f43e4/edgeinsider.png 1120w,
-/static/68fdde26a96376128df6eaae00f6bd24/bb27a/edgeinsider.png 1371w&quot;
+        src=&quot;/static/68fdde26a96376128df6eaae00f6bd24/6d7b8/edgeinsider.png&quot;
+        srcset=&quot;/static/68fdde26a96376128df6eaae00f6bd24/c3664/edgeinsider.png 140w,
+/static/68fdde26a96376128df6eaae00f6bd24/2a48b/edgeinsider.png 280w,
+/static/68fdde26a96376128df6eaae00f6bd24/6d7b8/edgeinsider.png 560w,
+/static/68fdde26a96376128df6eaae00f6bd24/2d81a/edgeinsider.png 840w,
+/static/68fdde26a96376128df6eaae00f6bd24/1b198/edgeinsider.png 1120w,
+/static/68fdde26a96376128df6eaae00f6bd24/93f4b/edgeinsider.png 1371w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -39,7 +39,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/3096d/mseditor_broken.png&quot;
+    href=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/9eec3/mseditor_broken.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -52,13 +52,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;mseditor broken&quot;
         title=&quot;mseditor broken&quot;
-        src=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/b06ae/mseditor_broken.png&quot;
-        srcset=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/0d3e1/mseditor_broken.png 140w,
-/static/5ae65eae664c99fe48e142ccbfb1a6da/908b1/mseditor_broken.png 280w,
-/static/5ae65eae664c99fe48e142ccbfb1a6da/b06ae/mseditor_broken.png 560w,
-/static/5ae65eae664c99fe48e142ccbfb1a6da/1e088/mseditor_broken.png 840w,
-/static/5ae65eae664c99fe48e142ccbfb1a6da/f43e4/mseditor_broken.png 1120w,
-/static/5ae65eae664c99fe48e142ccbfb1a6da/3096d/mseditor_broken.png 1319w&quot;
+        src=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/6d7b8/mseditor_broken.png&quot;
+        srcset=&quot;/static/5ae65eae664c99fe48e142ccbfb1a6da/c3664/mseditor_broken.png 140w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/2a48b/mseditor_broken.png 280w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/6d7b8/mseditor_broken.png 560w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/2d81a/mseditor_broken.png 840w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/1b198/mseditor_broken.png 1120w,
+/static/5ae65eae664c99fe48e142ccbfb1a6da/9eec3/mseditor_broken.png 1319w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -93,7 +93,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f51ae441690a41a55a2c9506feacd436/d6b80/muumuu-domain.png&quot;
+    href=&quot;/static/f51ae441690a41a55a2c9506feacd436/eee96/muumuu-domain.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -106,13 +106,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;muumuu domain&quot;
         title=&quot;muumuu domain&quot;
-        src=&quot;/static/f51ae441690a41a55a2c9506feacd436/b06ae/muumuu-domain.png&quot;
-        srcset=&quot;/static/f51ae441690a41a55a2c9506feacd436/0d3e1/muumuu-domain.png 140w,
-/static/f51ae441690a41a55a2c9506feacd436/908b1/muumuu-domain.png 280w,
-/static/f51ae441690a41a55a2c9506feacd436/b06ae/muumuu-domain.png 560w,
-/static/f51ae441690a41a55a2c9506feacd436/1e088/muumuu-domain.png 840w,
-/static/f51ae441690a41a55a2c9506feacd436/f43e4/muumuu-domain.png 1120w,
-/static/f51ae441690a41a55a2c9506feacd436/d6b80/muumuu-domain.png 1393w&quot;
+        src=&quot;/static/f51ae441690a41a55a2c9506feacd436/6d7b8/muumuu-domain.png&quot;
+        srcset=&quot;/static/f51ae441690a41a55a2c9506feacd436/c3664/muumuu-domain.png 140w,
+/static/f51ae441690a41a55a2c9506feacd436/2a48b/muumuu-domain.png 280w,
+/static/f51ae441690a41a55a2c9506feacd436/6d7b8/muumuu-domain.png 560w,
+/static/f51ae441690a41a55a2c9506feacd436/2d81a/muumuu-domain.png 840w,
+/static/f51ae441690a41a55a2c9506feacd436/1b198/muumuu-domain.png 1120w,
+/static/f51ae441690a41a55a2c9506feacd436/eee96/muumuu-domain.png 1393w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -235,7 +235,7 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b8dc91382ceca22625b1b29d65620771/5d6a0/simplenote-top.png&quot;
+    href=&quot;/static/b8dc91382ceca22625b1b29d65620771/7e99c/simplenote-top.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -248,13 +248,13 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Simplenote のトップページ&quot;
         title=&quot;Simplenote のトップページ&quot;
-        src=&quot;/static/b8dc91382ceca22625b1b29d65620771/b06ae/simplenote-top.png&quot;
-        srcset=&quot;/static/b8dc91382ceca22625b1b29d65620771/0d3e1/simplenote-top.png 140w,
-/static/b8dc91382ceca22625b1b29d65620771/908b1/simplenote-top.png 280w,
-/static/b8dc91382ceca22625b1b29d65620771/b06ae/simplenote-top.png 560w,
-/static/b8dc91382ceca22625b1b29d65620771/1e088/simplenote-top.png 840w,
-/static/b8dc91382ceca22625b1b29d65620771/f43e4/simplenote-top.png 1120w,
-/static/b8dc91382ceca22625b1b29d65620771/5d6a0/simplenote-top.png 1580w&quot;
+        src=&quot;/static/b8dc91382ceca22625b1b29d65620771/6d7b8/simplenote-top.png&quot;
+        srcset=&quot;/static/b8dc91382ceca22625b1b29d65620771/c3664/simplenote-top.png 140w,
+/static/b8dc91382ceca22625b1b29d65620771/2a48b/simplenote-top.png 280w,
+/static/b8dc91382ceca22625b1b29d65620771/6d7b8/simplenote-top.png 560w,
+/static/b8dc91382ceca22625b1b29d65620771/2d81a/simplenote-top.png 840w,
+/static/b8dc91382ceca22625b1b29d65620771/1b198/simplenote-top.png 1120w,
+/static/b8dc91382ceca22625b1b29d65620771/7e99c/simplenote-top.png 1580w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -269,7 +269,7 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/91608/simplenote-history.png&quot;
+    href=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/c2026/simplenote-history.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -282,13 +282,13 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Simplenote の History 機能&quot;
         title=&quot;Simplenote の History 機能&quot;
-        src=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/b06ae/simplenote-history.png&quot;
-        srcset=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/0d3e1/simplenote-history.png 140w,
-/static/dfa5427c97f24ebd8f27b4504e2eb187/908b1/simplenote-history.png 280w,
-/static/dfa5427c97f24ebd8f27b4504e2eb187/b06ae/simplenote-history.png 560w,
-/static/dfa5427c97f24ebd8f27b4504e2eb187/1e088/simplenote-history.png 840w,
-/static/dfa5427c97f24ebd8f27b4504e2eb187/f43e4/simplenote-history.png 1120w,
-/static/dfa5427c97f24ebd8f27b4504e2eb187/91608/simplenote-history.png 1251w&quot;
+        src=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/6d7b8/simplenote-history.png&quot;
+        srcset=&quot;/static/dfa5427c97f24ebd8f27b4504e2eb187/c3664/simplenote-history.png 140w,
+/static/dfa5427c97f24ebd8f27b4504e2eb187/2a48b/simplenote-history.png 280w,
+/static/dfa5427c97f24ebd8f27b4504e2eb187/6d7b8/simplenote-history.png 560w,
+/static/dfa5427c97f24ebd8f27b4504e2eb187/2d81a/simplenote-history.png 840w,
+/static/dfa5427c97f24ebd8f27b4504e2eb187/1b198/simplenote-history.png 1120w,
+/static/dfa5427c97f24ebd8f27b4504e2eb187/c2026/simplenote-history.png 1251w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -303,7 +303,7 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/79a896db93147049813ddc973cb47ca2/302a4/simplenote-share.png&quot;
+    href=&quot;/static/79a896db93147049813ddc973cb47ca2/b4ad3/simplenote-share.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -316,12 +316,12 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Firefox の共有メニューに表示される Simplenote アプリ&quot;
         title=&quot;Firefox の共有メニューに表示される Simplenote アプリ&quot;
-        src=&quot;/static/79a896db93147049813ddc973cb47ca2/b06ae/simplenote-share.png&quot;
-        srcset=&quot;/static/79a896db93147049813ddc973cb47ca2/0d3e1/simplenote-share.png 140w,
-/static/79a896db93147049813ddc973cb47ca2/908b1/simplenote-share.png 280w,
-/static/79a896db93147049813ddc973cb47ca2/b06ae/simplenote-share.png 560w,
-/static/79a896db93147049813ddc973cb47ca2/1e088/simplenote-share.png 840w,
-/static/79a896db93147049813ddc973cb47ca2/302a4/simplenote-share.png 1080w&quot;
+        src=&quot;/static/79a896db93147049813ddc973cb47ca2/6d7b8/simplenote-share.png&quot;
+        srcset=&quot;/static/79a896db93147049813ddc973cb47ca2/c3664/simplenote-share.png 140w,
+/static/79a896db93147049813ddc973cb47ca2/2a48b/simplenote-share.png 280w,
+/static/79a896db93147049813ddc973cb47ca2/6d7b8/simplenote-share.png 560w,
+/static/79a896db93147049813ddc973cb47ca2/2d81a/simplenote-share.png 840w,
+/static/79a896db93147049813ddc973cb47ca2/b4ad3/simplenote-share.png 1080w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
@@ -350,7 +350,7 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/71c1d/markdown-cheatsheet.png&quot;
+    href=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/e8464/markdown-cheatsheet.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -363,13 +363,13 @@ nginx &lt;span class=&quot;token number&quot;&gt;22965&lt;/span&gt; nginx 4u IPv
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Markdownチートシート&quot;
         title=&quot;Markdownチートシート&quot;
-        src=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/b06ae/markdown-cheatsheet.png&quot;
-        srcset=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/0d3e1/markdown-cheatsheet.png 140w,
-/static/3d5a44ed9dacec3f2de51a9a4ba02095/908b1/markdown-cheatsheet.png 280w,
-/static/3d5a44ed9dacec3f2de51a9a4ba02095/b06ae/markdown-cheatsheet.png 560w,
-/static/3d5a44ed9dacec3f2de51a9a4ba02095/1e088/markdown-cheatsheet.png 840w,
-/static/3d5a44ed9dacec3f2de51a9a4ba02095/f43e4/markdown-cheatsheet.png 1120w,
-/static/3d5a44ed9dacec3f2de51a9a4ba02095/71c1d/markdown-cheatsheet.png 1536w&quot;
+        src=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/6d7b8/markdown-cheatsheet.png&quot;
+        srcset=&quot;/static/3d5a44ed9dacec3f2de51a9a4ba02095/c3664/markdown-cheatsheet.png 140w,
+/static/3d5a44ed9dacec3f2de51a9a4ba02095/2a48b/markdown-cheatsheet.png 280w,
+/static/3d5a44ed9dacec3f2de51a9a4ba02095/6d7b8/markdown-cheatsheet.png 560w,
+/static/3d5a44ed9dacec3f2de51a9a4ba02095/2d81a/markdown-cheatsheet.png 840w,
+/static/3d5a44ed9dacec3f2de51a9a4ba02095/1b198/markdown-cheatsheet.png 1120w,
+/static/3d5a44ed9dacec3f2de51a9a4ba02095/e8464/markdown-cheatsheet.png 1536w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;auto&quot;
