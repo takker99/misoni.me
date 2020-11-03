@@ -22,7 +22,7 @@ const AboutPage = ({ data, location }) => {
           このサイトは何?
         </h2>
         <p>
-          Misoni himself の個人サイト。最近、個人サイトを持つ・個人サイトに回帰する人が増えた気がするので、その流れに乗って作ってみた。Gatsby (React) で書き、<a href="https://github.com/MISONLN41/misonln41.github.io" target="blank" rel="nofollow noopener noreferrer external">GitHub Pages を使ってホスティング</a>している。変更をコミットすると GitHub Actions で自動でビルドされる。このサイトでは特にテーマを決めることはせず、怪文書やら何やら、ブログ的なものを書いていくつもり。ちなみに、サイト名は細野晴臣の楽曲「僕は一寸」(HOSONO HOUSE 収録) から。
+          Misoni himself の個人サイト。最近、個人サイトを持つ・個人サイトに回帰する人が増えた気がするので、その流れに乗って作ってみた。Gatsby (React) で書き、Netlify でホスティングしている。このサイトでは特にテーマを決めることはせず、怪文書やら何やら、ブログ的なものを書いていくつもり。ちなみに、サイト名は細野晴臣の楽曲「僕は一寸」(HOSONO HOUSE 収録) から。
         </p>
       </section>
       <section id="links">
