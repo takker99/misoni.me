@@ -3,13 +3,14 @@ title: "Mastodon を ConoHa VPS の Arch Linux にインストールする"
 date: "2020-10-04"
 description: ""
 tags: ["Mastodon", "VPS", "GNU/Linux"]
---- 
+---
 
 いつものごとく突発的な思いつきで、自分用の Mastodon インスタンスを建てようと思い VPS を借りた。基本的には公式のガイドに沿ってるだけなのだが、Arch Linux で建てましたという日本語の記録はあまり見かけなかったので記しておく。
 
-2020/11/15追記: 結局あまり使わなかったので閉じた。サーバー代かかるし。
+2020/11/15 追記: 結局あまり使わなかったので閉じた。サーバー代かかるし。
 
 ## 構成
+
 - ConoHa VPS の 1GB プラン
 - Arch Linux (サーバー作成時に選べるイメージを使用)
 - ムームードメインで取得したドメインのサブドメインで運用 ( [mstdn.misoni.me](https://mstdn.misoni.me) )
@@ -22,7 +23,7 @@ tags: ["Mastodon", "VPS", "GNU/Linux"]
 
 ムームー DNS 側でサブドメインを切り、VPS の IP アドレスを指定する。AAAA レコードには IPv6 アドレスを、A レコードには IPv4 アドレスを入れる。まあ、ここの情報は山のようにあるので各自で頑張ってくれ。
 
-## VPS自体の初期設定
+## VPS 自体の初期設定
 
 SSH 接続して作業用ユーザーを作成して sudo の設定をして root ログインを無効化して公開鍵認証にしてパスワードログインを無効化した。こちらも情報は山のようにあるので各自で頑張ってくれ。
 
@@ -126,7 +127,7 @@ Mastodon のセットアップウィザートを立ち上げる。
 RAILS_ENV=production bundle exec rake mastodon:setup
 ```
 
-これはウィザードに従っていれば簡単に完了する。ドメインや、クラウドストレージ ( S3とか ) 利用の可否、メールサーバーの設定等が対話形式で進んでいく。今回は自分専用のインスタンスなので、メールサーバーの設定は全て空欄で押し通した。
+これはウィザードに従っていれば簡単に完了する。ドメインや、クラウドストレージ ( S3 とか ) 利用の可否、メールサーバーの設定等が対話形式で進んでいく。今回は自分専用のインスタンスなので、メールサーバーの設定は全て空欄で押し通した。
 
 最後に admin アカウントの設定ができるが、その際に非常に長いパスワードが生成される。忘れると再びセットアップをやり直さなければいけないと思われるので、何かしらの方法で控えておくことを推奨する。
 
@@ -198,20 +199,20 @@ sudo systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 
 ### nginx が `# nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)` と表示されて起動しない
 
-80番ポートを占領されているらしい。
+80 番ポートを占領されているらしい。
 
-`lsof` というツールを使って80番ポートを使っているプロセスを調べる。lsof は pacman からインストールできる。
+`lsof` というツールを使って 80 番ポートを使っているプロセスを調べる。lsof は pacman からインストールできる。
 
 ```bash
 sudo pacman -S lsof
 sudo lsof -i:80
 
-COMMAND PID USER FD TYPE DEVICE SIZE/OFF NODE NAME  
-nginx 22964 root 4u IPv4 21601 0t0 TCP *:http (LISTEN)  
-nginx 22965 nginx 4u IPv4 21601 0t0 TCP *:http (LISTEN)  
+COMMAND PID USER FD TYPE DEVICE SIZE/OFF NODE NAME
+nginx 22964 root 4u IPv4 21601 0t0 TCP *:http (LISTEN)
+nginx 22965 nginx 4u IPv4 21601 0t0 TCP *:http (LISTEN)
 ```
 
-nginx が既に立ち上がっていたのか、nginx 自身が80番ポートを使っていたらしい。lsof 使用時に pid も表示されるので、pid を指定して kill して、もう一度 nginx を立ち上げる。
+nginx が既に立ち上がっていたのか、nginx 自身が 80 番ポートを使っていたらしい。lsof 使用時に pid も表示されるので、pid を指定して kill して、もう一度 nginx を立ち上げる。
 
 ```bash
 sudo kill 22964
@@ -234,5 +235,5 @@ sudo reboot
 
 - [Run a Mastodon Server on Arch Linux VPS | LIOLOG](https://liolok.github.io/Run-a-Mastodon-Server-on-Arch-Linux-VPS/)
 - [Installing from source - Mastodon documentation](https://docs.joinmastodon.org/admin/install/)
-- [Fedra 30に nginxをインストール・設定 - Qiita](https://qiita.com/Sue_chan/items/fb9fc616efe5bf1b30b4)
+- [Fedra 30 に nginx をインストール・設定 - Qiita](https://qiita.com/Sue_chan/items/fb9fc616efe5bf1b30b4)
 - [nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use) | EasyRamble](https://easyramble.com/nginx-emerg-bind-failed.html)

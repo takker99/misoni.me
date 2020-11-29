@@ -36,9 +36,9 @@ module.exports = {
             options: {
               maxWidth: 560,
               linkImagesToOriginal: true,
-              loading: 'auto',
+              loading: "auto",
               quality: 100,
-              wrapperStyle: 'margin-top: 20px; margin-bottom: 20px;',
+              wrapperStyle: "margin-top: 20px; margin-bottom: 20px;",
             },
           },
           {
@@ -48,9 +48,9 @@ module.exports = {
             },
           },
           {
-              resolve: `gatsby-remark-prismjs`,
-              options: {
-                  showLineNumbers: true,
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
             },
           },
           `gatsby-remark-copy-linked-files`,
@@ -59,9 +59,9 @@ module.exports = {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
-              rel: "nofollow noopener noreferrer external"
-            }
-          }
+              rel: "nofollow noopener noreferrer external",
+            },
+          },
         ],
       },
     },

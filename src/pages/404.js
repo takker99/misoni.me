@@ -11,7 +11,9 @@ const NotFoundPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="404: Not Found" />
       <h1>404: Not Found</h1>
-      <p>お探しのページは見つからなかったようです。主に下記の理由が考えられます。</p>
+      <p>
+        お探しのページは見つからなかったようです。主に下記の理由が考えられます。
+      </p>
       <ul>
         <li>リンクの設定ミスや入力ミス。</li>
         <li>ページのURLが変更された。</li>

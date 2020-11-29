@@ -19,9 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h1>
-            {post.frontmatter.title}
-          </h1>
+          <h1>{post.frontmatter.title}</h1>
           <p>
             <small>{post.frontmatter.date}</small>
           </p>
@@ -30,7 +28,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           className={styles.bodysection}
         />
-        <hr/>
+        <hr />
       </article>
 
       <nav className={styles.neighbornav}>
