@@ -14,24 +14,11 @@ const BlogIndex = ({ data, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <article key={node.fields.slug}>
-            <header>
-              <h1>
-                <Link to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h1>
-              <p>
-                <small>{node.frontmatter.date}</small>
-              </p>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
+          <article key={node.fields.slug} style={{paddingBottom: 32 + 'px'}}>
+            <small>{node.frontmatter.date}</small>
+            <h1 style={{paddingTop: 0}}>
+              <Link to={node.fields.slug}>{title}</Link>
+            </h1>
           </article>
         )
       })}
@@ -51,7 +38,6 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
