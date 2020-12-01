@@ -1,5 +1,5 @@
 ---
-title: "Advent Calendar"
+title: "情報はおしゃぶり"
 date: "2020-12-01"
 description: ""
 tags: ["ジャンル無し 全部俺 Advent Calendar 2020", "情報"]
