@@ -18,11 +18,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-        <header>
-          <h1>{post.frontmatter.title}</h1>
-          <p>
-            <small>{post.frontmatter.date}</small>
-          </p>
+        <header style={{ paddingBottom: 32 + "px" }}>
+          <small>{post.frontmatter.date}</small>
+          <h1 style={{ paddingTop: 0 }}>{post.frontmatter.title}</h1>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
