@@ -12,7 +12,6 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.666em;
-    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -49,5 +48,6 @@ blockquote {
     background: #353535;
     border-radius: 0 8px 8px 0;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-left: 6px solid #565656;
 }
