@@ -22,7 +22,7 @@ Tree Style Tab というのはタブをサイドバーに縦にツリー表示�
 
 Tree Style Tab の特徴の一つに、Tree Style Tab が提供する API を使うことで Tree Style Tab を拡張する拡張機能を開発できることがある。拡張機能をさらに拡張する拡張機能、と何が何やらややこしいようだが、これのお陰で Tree Style Tab はそれ単体を「タブをツリー表示する」という目的を達成するためのシンプルなものに保ちながら、他の拡張機能を導入することによって柔軟に機能を拡張することができる。
 
-そうして開発された Tree Style Tab を拡張する拡張機能の 1 つに[Tree Style Tab Mouse Wheel](https://addons.mozilla.org/ja/firefox/addon/tree-style-tab-mouse-wheel/)というものがある。これは、Tree Style Tab のサイドバー上でマウスホイールを回すことでタブの切り替えを可能にするものだ。僕が以前使っていた[Vivaldi](https://vivaldi.com/ja/)という Chromium ベースのブラウザにはこの機能がビルトインされていて(というか Vivaldi はかなり多数の独自機能とカスタマイズ性を売りにしているブラウザだ)、とても便利だと感じていた。だからこの拡張機能を見つけたときは Tree Style Tab の拡張性に感動したし、この拡張機能のお陰で Vivaldi から Firefox に移行する最後の障壁が取り除かれた。
+そうして開発された Tree Style Tab を拡張する拡張機能の 1 つに[Tree Style Tab Mouse Wheel](https://addons.mozilla.org/ja/firefox/addon/tree-style-tab-mouse-wheel/)というものがある。これは、Tree Style Tab のサイドバー上でマウスホイールを回すことでタブの切り替えを可能にするものだ。僕が以前使っていた [Vivaldi](https://vivaldi.com/ja/) という Chromium ベースのブラウザにはこの機能がビルトインされていて(というか Vivaldi はかなり多数の独自機能とカスタマイズ性を売りにしているブラウザだ)、とても便利だと感じていた。だからこの拡張機能を見つけたときは Tree Style Tab の拡張性に感動したし、この拡張機能のお陰で Vivaldi から Firefox に移行する最後の障壁が取り除かれた。
 
 そんなわけで Firefox をメインブラウザとして使い始めて以来ずっと愛用してきた Tree Style Tab と Tree Style Tab Mouse Wheel なのだが、先日 Firefox 84 に更新したら挙動がおかしくなってしまった。本来、Tree Style Tab Mouse Wheel を導入していると、オーバーフローするまでタブを開いた状態でホイールを回してもスクロールせずにタブが切り替わるのだが、この「スクロールしない」という挙動が壊れてしまった。
 
@@ -30,7 +30,7 @@ Tree Style Tab の特徴の一つに、Tree Style Tab が提供する API を使
 
 この GIF はホイールを回してタブを切り替えている様子のキャプチャ映像なのだが、タブを切り替えると同時にサイドバーがスクロールしてしまっていることが分かる。
 
-実は以前、Firefox Nightly を使っているときからこの現象には気付いていたのだけれど、単なるバグだろうと思って、正式リリースまでには直っているだろうと思っていた。ところが、この問題 h は修正されることなく Stable 版の 84 にも降ってきてしまった。
+実は以前、Firefox Nightly を使っているときからこの現象には気付いていたのだけれど、単なるバグだろうと思って、正式リリースまでには直っているだろうと思っていた。ところが、この問題は修正されることなく Stable 版の 84 にも降ってきてしまった。
 
 このバグには非常に困ってしまって、でも Tree Style Tab / Tree Style Tab Mouse Wheel のリポジトリでも言及されていなかったので、自分で原因を調べることにした。
 
