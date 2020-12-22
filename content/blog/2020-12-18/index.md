@@ -2,7 +2,7 @@
 title: "リツイート"
 date: "2020-12-18"
 description: ""
-tags: ["ジャンル無し 全部俺 Advent Calendar 2020", Twitter", "雑記"]
+tags: ["ジャンル無し 全部俺 Advent Calendar 2020", "Twitter", "雑記"]
 ---
 
 この投稿は [ジャンル無し 全部俺 Advent Calendar 2020](https://adventar.org/calendars/5495) の 18 日目の投稿です。
